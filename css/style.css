@@ -1,0 +1,573 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans";
+
+
+}
+section{
+  margin: 0%;
+  padding: 0;
+}
+.profile-body{
+	position: relative;
+	max-width: 2000px;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 0%;
+	background-color: #ffffff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.16);
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: auto;
+
+
+  
+}
+.header{
+  height: 70px;
+  padding: 0 20px;
+}
+.logo{
+  margin-left: 1%;
+  color: #000;
+  line-height: 70px;
+  float: left;
+  text-transform: uppercase;
+  }
+
+.menu{
+  text-align: center;
+  line-height: 70px;
+}
+.menu .b{
+  color: #000;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.3s;
+  font-weight: bolder;
+}
+.menu .cnt{
+  color: #fff;
+}
+.menu button{
+  float: right;
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: 0.3s;
+  font-weight: bolder;
+}
+
+.menu h2{
+  display: none;
+  margin-top: 50%;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.navfollow-me{
+  display: none;
+}
+.navsocial-media-top{
+  line-height: 40px;
+}
+.navsocial-media-top a{
+  color: #FF8000;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.3s;
+
+  font-weight: bolder;
+}
+.navsocial-media-top a:hover{
+  color: #000;
+}
+
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.3s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  color: #000;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  line-height: 70px;
+
+}
+.menu .b:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #000;
+  font-size: 25px;
+  font-weight: bolder;
+
+}
+.menu .cnt:hover{
+  color: #fff;
+
+}
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+
+}
+
+.menu .nav-cnt{
+  text-align: center;
+  display: none;
+}
+
+
+.profile-name{
+  padding-top: 10%;
+  margin-top: 0%;
+  margin-left: 5%;
+  align-items: center;
+}
+.profile-name h3{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.profile-name h1{
+  padding-top: 1%;
+  font-size: 3.5vw;
+}
+.profile-name h2{
+  font-size: 2vw;
+  font-weight: normal;
+  align-items: center;
+}
+.profile-pic{
+  width: 50%;
+  max-width: 2000px;
+  min-width: 200px;
+  float: right;
+  align-items: center;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.follow-me{
+  padding-top: 5%;
+  margin-top: 0%;
+  text-align: center;
+}
+.follow-me h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.social-media-top{
+  line-height: 70px;
+}
+.social-media-top a{
+  color: #FF8000;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.social-media-top a:hover{
+  color: #000;
+}
+
+.about-pic{
+  margin-top: 20%;
+}
+.about-pic .about-pic-img{
+  width: 30%;
+  max-width: 1000px;
+  min-width: 200px;
+  float: left;
+  align-items: center;
+}
+.who-am-i{
+  margin-left: 40%;
+}
+.who-am-i h1{
+  padding-top: 5%;
+  font-size: 60px;
+
+}
+.who-am-i p{
+  margin-top: 2%;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 35px;
+  padding-right: 10%;
+}
+.who-am-i h2{
+  padding-top: 5%;
+  font-size: 30px;
+}
+.who-am-i img{
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recent-tab h1{
+  margin-top: 20%;
+  font-size: 80px;
+  font-weight: bolder;
+  text-align: center;
+}
+.image-design img{
+  width: 40%;
+  max-width: 2000px;
+  min-width: 200px;
+  margin-left: 30%;
+}
+.button{
+  text-align: center;
+}
+.btn{
+  border: 1px solid #000;
+  background: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: normal;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover{
+  border: 1px solid #FF8000;
+  background: #FF8000;
+  font-weight: normal;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  transition: 0.2s;
+  box-shadow: rgba(0,0,0,.16);
+}
+
+
+
+
+
+
+.social-tab{
+  position: relative;
+  max-width: 2000px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+  background: #c4c4c4;
+  height: 70px;
+  margin-top: 10%;
+}
+.address{
+  font-size: 16px;
+  color: #000;
+  float: left;
+  padding-top: 20px;
+  font-weight: normal;
+}
+.social-media{
+
+  float: right;
+  line-height: 70px;
+}
+.social-media a{
+  color: #000;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.social-media a:hover{
+  color: #FF8000;
+}
+/*Popup*/
+
+
+/* Set a style for all buttons */
+button {
+  margin-right: 2%;
+    color: black;
+    margin-top: 2%;
+    text-underline-position: below;
+    border: none;
+    cursor: pointer;
+	font-size:20px;
+}
+button:hover {
+    opacity: 0.8;
+    color: #FF8000;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto 15% auto;
+    border: 1px solid #c0c0c0;
+    width: 60%; 
+    border-radius: 10px;
+    box-shadow: 0 0 99px rgba(0, 0, 0, 0.5);
+	padding-bottom: 30px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    margin-top: 0px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: normal;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 48px 0 24px 0;
+  position: relative;
+}
+.imgcontainer a{
+font-size: 50px;
+cursor: pointer;
+color: #FF8000;
+text-decoration: none;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.3s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+
+@media screen and (max-width:800px) {
+	.show-menu-btn,.hide-menu-btn{
+		display: block;
+	  }
+	  .menu{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #ffffff;
+		right: -100%;
+		top: 0;
+		text-align: center;
+		padding: 80px 0;
+		line-height: normal;
+		transition: 0.3s;
+	  }
+	  .menu .b{
+		display: block;
+		padding: 5%;
+    }
+    .menu button{
+      display: none;
+    }
+    
+.menu h2{
+  display: block;
+  margin-top: 50%;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.navfollow-me{
+  display: block;
+}
+.navsocial-media-top{
+  line-height: 40px;
+}
+.navsocial-media-top a{
+  color: #FF8000;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.3s;
+
+  font-weight: bolder;
+}
+.navsocial-media-top a:hover{
+  color: #000;
+}
+	  .hide-menu-btn{
+		position: absolute;
+		top: 40px;
+		right: 40px;
+	  }
+	  #chk:checked ~ .menu{
+		right: 0;
+	  }
+
+  .profile-pic{
+    width: 90%;
+    max-width: 800px;
+    min-width: 100px;
+    margin-top: 5%;
+  
+  }
+  .profile-name{
+    margin-top: 5%;
+    padding-top: 10%;
+    text-align: center;
+  }
+  .profile-name h3{
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  .profile-name h1{
+    font-size: 8vw;
+  }
+  .profile-name h2{
+    font-size: 4vw;
+    font-weight: normal;
+    align-items: center;
+  }
+
+
+
+
+  .about-pic{
+
+    margin-top: 10%;
+  }
+  .about-pic .about-pic-img{
+    display: none;
+  }
+  .who-am-i{
+    margin-left: 0%;
+    text-align: center;
+  }
+  .who-am-i h1{
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  .who-am-i p{
+    margin-top: 2%;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 17px;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .who-am-i h2{
+    padding-top: 5%;
+    font-size: 20px;
+  }
+  .who-am-i img{
+    width: 30%;
+  }
+  
+
+
+
+
+  .recent-tab{
+    margin-top: 10%;
+  }
+  .recent-tab h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .image-design img{
+    width: 80%;
+    max-width: 2000px;
+    min-width: 200px;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  .btn{
+    border: 1px solid #000;
+    background: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+
+  
+
+
+
+
+.social-tab{
+  position: relative;
+  max-width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+  margin-top: 10%;
+  background: #c4c4c4;
+  height: 120px;
+  margin-top: 10%;
+  text-align: center;
+}
+.address{
+  font-size: 12px;
+  color: #000;
+  float: none;
+  padding-top: 30px;
+  font-weight: normal;
+}
+.social-media{
+
+  float: none;
+  line-height: 70px;
+}
+.social-media a{
+  color: #000;
+  text-decoration: none;
+  margin-top: 0;
+  padding: 0 5px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.social-media a:hover{
+  color: #FF8000;
+}
+
+
+}

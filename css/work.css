@@ -223,7 +223,35 @@ section{
 	  width: 100%;
   }
   
-  .intro .gallery{
+  .intro .gallery .img{
+	  height: 100%;
+	  width: 100%;
+	  margin-top: 5%;
+
+  }
+  .intro .gallery .img video{
+	  height: 80%;
+	  width: 80%;
+  }
+  
+  
+  
+
+/* vlog */
+.cinevid h1{
+	margin-top: 10%;
+	  font-size: 18px;
+	  text-align: center;
+	  color: #333;
+  }
+  
+  .cinevid{
+	  margin-top: 10%;
+	  height: 100%;
+	  width: 100%;
+  }
+  
+  .cinevid .gallery{
 	  height: auto;
 	  width: 90%;
 	  margin: auto;
@@ -233,55 +261,29 @@ section{
 	  grid-gap: 10vh;
 	  grid-auto-flow: dense;
   }
-  .intro .gallery .img{
+  .cinevid .gallery .img{
 	  height: 100%;
 	  width: 100%;
   }
-  .intro .gallery .img:first-child{
+  .cinevid .gallery .img:first-child{
 	  grid-row-start: span 1;
   }
-  .intro .gallery .img:nth-child(2n+3){
+  .cinevid .gallery .img:nth-child(2n+3){
 	  grid-row-start: span 1;
   }
-  .intro .gallery .img:nth-child(4n+5){
+  .cinevid .gallery .img:nth-child(4n+5){
 	  grid-row-start: span 1;
   }
-  .intro .gallery .img:nth-child(6n+7){
+  .cinevid .gallery .img:nth-child(6n+7){
 	  grid-row-start: span 1;
   }
-  .intro .gallery .img:nth-child(8n+9){
+  .cinevid .gallery .img:nth-child(8n+9){
 	  grid-row-start: span 1;
   }
-  .intro .gallery .img video{
+  .cinevid .gallery .img video{
 	  height: 100%;
 	  width: 100%;
   }
-  
-  
-  
-
-/* vlog */
-.vlog h1{
-	margin-top: 10%;
-	font-size: 18px;
-	text-align: center;
-	color: #333;
-}
-.vlog{
-	margin: 5%;
-}
-.vlog iframe{
-	align-items: center;
-	max-width: 560px;
-	min-width: 56px;
-	max-height: 315px;
-	min-height: 31.5px;
-
-}
-.smallscreen{
-	display: none;
-}
-
 /*SHORT VIDEO ADS*/
 .ads h1{
   margin-top: 10%;
@@ -293,57 +295,28 @@ section{
 
 .ads{
 	height: 100%;
-
 	width: 100%;
 }
 
-.ads .gallery{
-	height: auto;
-	width: 70%;
-	margin: auto;
-	padding: 0 0;
-	display: grid;
-	grid-template-columns: auto auto auto auto; /*i write auto four time because we want four rows*/
-	grid-gap: 0vh;
-	grid-auto-flow: dense;
-}
+
 .ads .gallery .img{
 	height: 100%;
 	width: 100%;
-  overflow: hidden;
-
-  transition: 0.3s ease-in-out;
 }
 
-.ads .gallery .img:first-child{
-	grid-row-start: span 1;
-}
-.ads .gallery .img:nth-child(2n+3){
-	grid-row-start: span 1;
-}
-.ads .gallery .img:nth-child(4n+5){
-	grid-row-start: span 1;
-}
-.ads .gallery .img:nth-child(6n+7){
-	grid-row-start: span 1;
-}
-.ads .gallery .img:nth-child(8n+9){
-	grid-row-start: span 1;
-}
 .ads .gallery .img img{
 	height: 100%;
 	width: 100%;
-	object-fit: cover;
-	transition: 0.3s ease-in-out;
+	margin-top: 5%;
+
 }
 .ads .gallery .img video{
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	transition: 0.3s ease-in-out;
-
+	height: 60%;
+	width: 60%;
 }
-
+.mob{
+	display: none;
+}
 
 
 
@@ -482,34 +455,54 @@ text-decoration: none;
 		display: grid;
 		grid-template-columns: auto auto;
 	}
-	.vlog h1{
-		margin-top: 10%;
-		font-size: 14px;
-		text-align: center;
-		color: #333;
-	}
-	.vlog iframe{
-		align-items: center;
-		width: 70%;
-		height: auto;
-	}
-	.bigscreen{
-		display: none;
-	}
-	.smallscreen{
-		display: block;
-	}
-	
-
-
-	.intro .gallery{
-		height: auto;
-		width: 80%;
-		padding: 10px 0;
-		grid-template-columns: auto auto; /*i write auto four time because we want four rows*/
-		grid-gap: 3vh;
-
-	}
+  .cinevid h1{
+    margin-top: 10%;
+      font-size: 18px;
+      text-align: center;
+      color: #333;
+    }
+    
+    .cinevid{
+      margin-top: 10%;
+      height: 100%;
+      width: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    
+    .cinevid .gallery{
+      height: auto;
+      width: 90%;
+      margin: auto;
+      padding: 50px 0;
+      display: grid;
+      grid-template-columns: auto; /*i write auto four time because we want four rows*/
+      grid-gap: 10vh;
+      grid-auto-flow: dense;
+    }
+    .cinevid .gallery .img{
+      height: 100%;
+      width: 100%;
+    }
+    .cinevid .gallery .img:first-child{
+      grid-row-start: span 1;
+    }
+    .cinevid .gallery .img:nth-child(2n+3){
+      grid-row-start: span 1;
+    }
+    .cinevid .gallery .img:nth-child(4n+5){
+      grid-row-start: span 1;
+    }
+    .cinevid .gallery .img:nth-child(6n+7){
+      grid-row-start: span 1;
+    }
+    .cinevid .gallery .img:nth-child(8n+9){
+      grid-row-start: span 1;
+    }
+    .cinevid .gallery .img video{
+      height: auto;
+      width: 80%;
+    }
 	
 
 
@@ -657,16 +650,11 @@ text-decoration: none;
 .social-media a:hover{
   color: #FF8000;
 }
-
-.ads .gallery{
-	height: auto;
-	width: 60%;
-	margin: auto;
-	padding: 0 0;
-	display: grid;
-	grid-template-columns: auto auto; /*i write auto four time because we want four rows*/
-	grid-gap: 0vh;
-	grid-auto-flow: dense;
+.desktop{
+	display: none;
+}
+.mob{
+	display: block;
 }
 
 }

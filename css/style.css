@@ -162,6 +162,14 @@ section{
   font-size: 20px;
   font-weight: bold;
 }
+.follow-me h2{
+  margin-top: -15px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.follow-me fa-phone{
+padding-right: 10%;
+}
 .social-media-top{
   line-height: 70px;
 }

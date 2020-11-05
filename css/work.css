@@ -155,7 +155,8 @@ section{
 }
 .main h1{
 	text-align: center;
-	color: #000;
+  color: #000;
+  font-size: 30px;
 }
 .border{
 	width: 200px;
@@ -163,6 +164,42 @@ section{
 	background: #333;
 	margin: 20px auto;
   }
+
+
+/*photogallery*/
+  .main .photogallery{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    padding: 45px 0;
+    display: grid;
+    grid-template-columns: auto auto auto; /*i write auto four time because we want four rows*/
+    grid-gap: 10vh;
+    grid-auto-flow: dense;
+  }
+  .main .photogallery .img{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .main .photogallery .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+  }
+  .main .photogallery .img:hover img{
+    transform: scale(1.4) rotate(5deg);
+    height: 100%;
+  }
+  
+
+
+
+
+/*Graphic Designs*/
+
 .main .gallery{
 	height: auto;
 	width: 80%;
@@ -448,9 +485,48 @@ text-decoration: none;
 @media screen and (max-width:768px) {
 
 	.main h1{
-		font-size: 1.8em;
+		font-size: 20px;
 		width: 400px;
-	}
+  }
+  .border{
+    width: 100px;
+    height: 1px;
+    background: #333;
+    margin: 15px auto;
+    }
+  /*photogallery*/
+  .main .photogallery{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 0 0;
+    display: grid;
+    grid-template-columns: auto auto auto; /*i write auto four time because we want four rows*/
+    grid-gap: 0.2vh;
+    grid-auto-flow: dense;
+  }
+  .main .photogallery .img{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .main .photogallery .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+  }
+  .main .photogallery .img:hover img{
+    transform: scale(1.4) rotate(5deg);
+    height: 100%;
+  }
+  
+
+
+
+
+/*Graphic Designs*/
 	.main .gallery{
 		display: grid;
 		grid-template-columns: auto auto;

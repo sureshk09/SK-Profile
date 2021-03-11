@@ -400,7 +400,10 @@
           grid-template-columns: auto auto;
       }
   
-  
+      .main .photogallery{
+        width: 60%;
+        grid-template-columns: auto;
+    }
   
   
   

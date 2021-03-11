@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  section{
+    margin: 0%;
+    padding: 0;
+  }
+  .profile-body{
+      position: relative;
+      max-width: 2000px;
+      padding-left: 2%;
+      padding-right: 2%;
+      padding-bottom: 0%;
+      background-color: #ffffff;
+      box-shadow: 0 5px 15px rgba(0,0,0,.16);
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      height: auto;
+  
+  
+    
+  }
+  .header{
+    height: 70px;
+    padding: 0 20px;
+  }
+  .logo{
+    margin-left: 1%;
+    color: #000;
+    line-height: 70px;
+    float: left;
+    text-transform: uppercase;
+    }
+  
+  .menu{
+    text-align: center;
+    line-height: 70px;
+  }
+  .menu .b{
+    color: #000;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.3s;
+    font-weight: bolder;
+  }
+  .menu .cnt{
+    color: #fff;
+  }
+  .menu button{
+    float: right;
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s;
+    font-weight: bolder;
+  }
+  
+  .menu h2{
+    display: none;
+    margin-top: 50%;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .navfollow-me{
+    display: none;
+  }
+  .navsocial-media-top{
+    line-height: 40px;
+  }
+  .navsocial-media-top a{
+    color: #FF8000;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.3s;
+  
+    font-weight: bolder;
+  }
+  .navsocial-media-top a:hover{
+    color: #000;
+  }
+  
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.3s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    color: #000;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 70px;
+  
+  }
+  .menu .b:hover,
+  .show-menu-btn:hover,
+  .hide-menu-btn:hover{
+    color: #000;
+    font-size: 25px;
+    font-weight: bolder;
+  
+  }
+  .menu .cnt:hover{
+    color: #fff;
+  
+  }
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  
+  }
+  
+  .menu .nav-cnt{
+    text-align: center;
+    display: none;
+  }
+  
+  
+  .follow-me{
+    padding-top: 5%;
+    margin-top: 0%;
+    text-align: center;
+  }
+  .follow-me h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .social-media-top{
+    line-height: 70px;
+  }
+  .social-media-top a{
+    color: #FF8000;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  .social-media-top a:hover{
+    color: #000;
+  }
+  
+  
+  
+  
+  
+  /* vlog */
+  .imgcover{
+    width: 100%;
+    max-width: 2000px;
+    min-width: 200px;
+  }
+  
+  .cinevid h1{
+      margin: 5%;
+        font-size: 18px;
+        text-align: center;
+        color: #333;
+    }
+  .ngsvid video{  
+    width: 80%;
+    max-width: 2000px;
+    min-width: 200px;
+    margin-bottom: 5%;
+  }
+    .cinevid{
+        margin-top: 10%;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .cinevid .gallery{
+        height: auto;
+        width: 90%;
+        margin: auto;
+        padding: 45px 0;
+        display: grid;
+        grid-template-columns: auto ; /*i write auto four time because we want four rows*/
+        grid-gap: 10vh;
+        grid-auto-flow: dense;
+    }
+    .cinevid .gallery .img{
+        height: 100%;
+        width: 100%;
+    }
+    .cinevid .gallery .img:first-child{
+        grid-row-start: span 1;
+    }
+    .cinevid .gallery .img:nth-child(2n+3){
+        grid-row-start: span 1;
+    }
+    .cinevid .gallery .img:nth-child(4n+5){
+        grid-row-start: span 1;
+    }
+    .cinevid .gallery .img:nth-child(6n+7){
+        grid-row-start: span 1;
+    }
+    .cinevid .gallery .img:nth-child(8n+9){
+        grid-row-start: span 1;
+    }
+    .cinevid .gallery .img video{
+        height: 60%;
+        width: 60%;
+    }
+  
+
+.ngsvid h1{
+  margin-left: 5%;
+  text-align: start;
+  margin-top: 10%;
+}
+  /*portfolio images*/
+  
+  .main{
+      margin-top: 10%;
+      height: 100%;
+      width: 100%;
+  }
+  .main h1{
+      text-align: center;
+    color: #000;
+    font-size: 30px;
+  }
+  .border{
+      width: 200px;
+      height: 4px;
+      background: #333;
+      margin: 20px auto;
+    }
+  
+  
+
+    
+    
+  
+  /*SHORT VIDEO ADS*/
+  .ads h1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+      font-size: 18px;
+      text-align: center;
+      color: #333;
+  }
+  
+  .ads{
+      height: 100%;
+      width: 100%;
+  }
+  
+  
+  .ads .gallery .img{
+      height: 100%;
+      width: 100%;
+  }
+  
+  .ads .gallery .img img{
+      height: 100%;
+      width: 100%;
+      margin-top: 5%;
+  
+  }
+  .ads .gallery .img video{
+      height: 60%;
+      width: 60%;
+  }
+  .mob{
+      display: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .social-tab{
+    position: relative;
+    max-width: 2000px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    background: #c4c4c4;
+    height: 70px;
+    margin-top: 10%;
+  }
+  .address{
+    font-size: 16px;
+    color: #000;
+    float: left;
+    padding-top: 20px;
+    font-weight: normal;
+  }
+  .social-media{
+  
+    float: right;
+    line-height: 70px;
+  }
+  .social-media a{
+    color: #000;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  .social-media a:hover{
+    color: #FF8000;
+  }
+  /*Popup*/
+  
+  
+  /* Set a style for all buttons */
+  button {
+    margin-right: 2%;
+      color: black;
+      margin-top: 2%;
+      text-underline-position: below;
+      border: none;
+      cursor: pointer;
+      font-size:20px;
+  }
+  button:hover {
+      opacity: 0.8;
+      color: #FF8000;
+  }
+  
+  
+  
+  /* The Modal (background) */
+  .modal {
+      display:none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.4);
+  }
+  
+  /* Modal Content Box */
+  .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto 15% auto;
+      border: 1px solid #c0c0c0;
+      width: 60%; 
+      border-radius: 10px;
+      box-shadow: 0 0 99px rgba(0, 0, 0, 0.5);
+      padding-bottom: 30px;
+  }
+  
+  /* The Close Button (x) */
+  .close {
+      position: absolute;
+      right: 25px;
+      margin-top: 0px;
+      top: 0;
+      color: #000;
+      font-size: 35px;
+      font-weight: normal;
+  }
+  .close:hover,.close:focus {
+      color: red;
+      cursor: pointer;
+  }
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 48px 0 24px 0;
+    position: relative;
+  }
+  .imgcontainer a{
+  font-size: 50px;
+  cursor: pointer;
+  color: #FF8000;
+  text-decoration: none;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+      animation: zoom 0.3s
+  }
+  @keyframes zoom {
+      from {transform: scale(0)} 
+      to {transform: scale(1)}
+  }
+  
+  
+  
+  
+  @media screen and (max-width:768px) {
+  
+      .main h1{
+          font-size: 20px;
+          width: 400px;
+    }
+    .border{
+      width: 100px;
+      height: 1px;
+      background: #333;
+      margin: 15px auto;
+      }
+    /*photogallery*/
+    .main .photogallery{
+      height: auto;
+      width: 100%;
+      margin: auto;
+      padding: 0 0;
+      display: grid;
+      grid-template-columns: auto auto auto; /*i write auto four time because we want four rows*/
+      grid-gap: 0.2vh;
+      grid-auto-flow: dense;
+    }
+    .main .photogallery .img{
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .main .photogallery .img img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: 0.3s ease-in-out;
+    }
+    .main .photogallery .img:hover img{
+      transform: scale(1.4) rotate(5deg);
+      height: 100%;
+    }
+    
+  
+  
+  
+  
+  /*Graphic Designs*/
+      .main .gallery{
+          display: grid;
+          grid-template-columns: auto auto;
+      }
+    .cinevid h1{
+      margin-top: 10%;
+        font-size: 18px;
+        text-align: center;
+        color: #333;
+      }
+      
+      .cinevid{
+        margin-top: 10%;
+        height: 100%;
+        width: 100%;
+  
+      }
+      
+      .cinevid .gallery{
+        height: auto;
+        width: 90%;
+        margin: auto;
+        padding: 50px 0;
+        display: grid;
+        grid-template-columns: auto; /*i write auto four time because we want four rows*/
+        grid-gap: 10vh;
+        grid-auto-flow: dense;
+      }
+      .cinevid .gallery .img{
+        height: 100%;
+        width: 100%;
+      }
+      .cinevid .gallery .img:first-child{
+        grid-row-start: span 1;
+      }
+      .cinevid .gallery .img:nth-child(2n+3){
+        grid-row-start: span 1;
+      }
+      .cinevid .gallery .img:nth-child(4n+5){
+        grid-row-start: span 1;
+      }
+      .cinevid .gallery .img:nth-child(6n+7){
+        grid-row-start: span 1;
+      }
+      .cinevid .gallery .img:nth-child(8n+9){
+        grid-row-start: span 1;
+      }
+      .cinevid .gallery .img video{
+        height: auto;
+        width: 80%;
+      }
+      
+  
+  
+  
+  
+  
+      .social-tab{
+          position: relative;
+          max-width: 800px;
+          padding-left: 5%;
+          padding-right: 5%;
+          padding-bottom: 0%;
+          margin-top: 10%;
+          background: #c4c4c4;
+          height: 120px;
+          margin-top: 10%;
+          text-align: center;
+        }
+        .address{
+          font-size: 12px;
+          color: #000;
+          float: none;
+          padding-top: 30px;
+          font-weight: normal;
+        }
+        .social-media{
+        
+          float: none;
+          line-height: 70px;
+        }
+        .social-media a{
+          color: #000;
+          text-decoration: none;
+          margin-top: 0;
+          padding: 0 5px;
+          transition: 0.3s;
+          font-weight: bold;
+        }
+        .social-media a:hover{
+          color: #FF8000;
+        }
+  
+  @media screen and (max-width:800px) {
+      .show-menu-btn,.hide-menu-btn{
+          display: block;
+        }
+        .menu{
+          position: fixed;
+          width: 100%;
+          height: 100vh;
+          background: #ffffff;
+          right: -100%;
+          top: 0;
+          text-align: center;
+          padding: 80px 0;
+          line-height: normal;
+          transition: 0.3s;
+        }
+        .menu .b{
+          display: block;
+          padding: 5%;
+      }
+      .menu button{
+        display: none;
+      }
+      
+  .menu h2{
+    display: block;
+    margin-top: 50%;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .navfollow-me{
+    display: block;
+  }
+  .navsocial-media-top{
+    line-height: 40px;
+  }
+  .navsocial-media-top a{
+    color: #FF8000;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.3s;
+  
+    font-weight: bolder;
+  }
+  .navsocial-media-top a:hover{
+    color: #000;
+  }
+        .hide-menu-btn{
+          position: absolute;
+          top: 40px;
+          right: 40px;
+        }
+        #chk:checked ~ .menu{
+          right: 0;
+        }
+  
+   
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  .social-tab{
+    position: relative;
+    max-width: 800px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    margin-top: 10%;
+    background: #c4c4c4;
+    height: 120px;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .address{
+    font-size: 12px;
+    color: #000;
+    float: none;
+    padding-top: 30px;
+    font-weight: normal;
+  }
+  .social-media{
+  
+    float: none;
+    line-height: 70px;
+  }
+  .social-media a{
+    color: #000;
+    text-decoration: none;
+    margin-top: 0;
+    padding: 0 5px;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  .social-media a:hover{
+    color: #FF8000;
+  }
+  .desktop{
+      display: none;
+  }
+  .mob{
+      display: block;
+  }
+  
+  }
